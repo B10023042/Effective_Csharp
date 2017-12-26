@@ -14,11 +14,19 @@ namespace EffectiveCsharp._01
             var exampleInt = 25;
             var exampleDict = new Dictionary<string, int>();
             var exampleProduct = new CommonProduct();
-
             var exampleProduct2 = ProductFactory.CreateProduct(ProductEnum.Industry);
+
+
             var exampleResult = exampleProduct.Report();
             var Parameter = 1;
+
+
+
             var result = SomeObject.DoSomeWork(Parameter);
+            int result2= SomeObject.DoSomeWork(Parameter);
+
+
+
             var num = SomeObject.DoSomeWork(Parameter);
             var workNum = SomeObject.DoSomeWork(Parameter);
         }

@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="01\DefineClass.cs" />
     <Compile Include="01\CompareTime.cs" />
+    <Compile Include="01\EnumerableAndQueryable.cs" />
+    <Compile Include="01\MainClass.cs" />
+    <Compile Include="01\Number.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

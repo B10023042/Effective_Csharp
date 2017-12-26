@@ -8,7 +8,7 @@ namespace EffectiveCsharp
 {
     class Program
     {
-        static void Main(string[] args)
+        static void test(string[] args)
         {
             System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
             sw.Reset();
